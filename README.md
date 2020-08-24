@@ -42,7 +42,7 @@
 
 “Primera computadora” creada por los griegos, calcula la posición del sol, luna y algunas constelaciones.
 
-![]({{site.baseurl}}//img1.png)
+![]({{site.baseurl}}/https://github.com/jeyfredc/Introduccion-al-pensamiento-computacional-con-python/blob/master/img.jpg)
 
     1. En 1801, Telar de Jacquar, separa el resultado de la informacion que contiene las instrucciones para poder realizar muchos tipos de telas.Siglo XIX, Motor analítico de Babbage, haciendo uso del avances en mecánica (engranajes) de su época logra separar instrucciones de calculo y realizar varios cálculos a la vez.
     
@@ -640,4 +640,3 @@ Clase 31 Afirmaciones
     • Programación defensiva se utiliza por ejemplo para decir si algo es verdadero o falso
     • Pueden utilizarse para verificar que los tipos sean correctos en una función
     • También sirven para debuguear
-
