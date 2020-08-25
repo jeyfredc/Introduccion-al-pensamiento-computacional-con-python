@@ -13,7 +13,7 @@
 
 [Lenguajes de programación](#Lenguajes-de-programación)
 
-[Todos los lenguajes tienen:](#Todos-los-lenguajes-tienen:)
+[Todos los lenguajes tienen:](#Todos-los-lenguajes-tienen-:)
 
 [Clase 5 Preparación de tu computadora](#Clase-5-Preparación-de-tu-computadora)
 
@@ -122,33 +122,33 @@
 
 “Primera computadora” creada por los griegos, calcula la posición del sol, luna y algunas constelaciones.
 
-![]({{site.baseurl}}/assets/img1.png)
+![assets/img1.png](assets/img1.png)
 
     1. En 1801, Telar de Jacquar, separa el resultado de la informacion que contiene las instrucciones para poder realizar muchos tipos de telas.Siglo XIX, Motor analítico de Babbage, haciendo uso del avances en mecánica (engranajes) de su época logra separar instrucciones de calculo y realizar varios cálculos a la vez.
     
-![]({{site.baseurl}}//img2.png)
+![assets/img2.png](assets/img2.png)
    
 
     2. Finales siglo XIX, ENIAC (Electronic Numerical Integrator and Computer) usaba sistema decimal. creada por Alan Turing y Alonso Church. Esta época exigía exactitud en los cálculos que hacían que compañías dependieran de esta(Compañías Ferroviarias por ejemplo). Turing y Alonso, Descubrieron que matemáticamente todos los algoritmos podíamos reducirlos a una secuencia de soluciones matemáticas.
 
-![img3.png]({{site.baseurl}}/img3.png)
+![assets/img.png](assets/img3.png)
 
 
     3. En 1945, Arquitectura de Von Neumann, EDVAC (Electronic Discrete Variable Automatic Computer) usaba sistema binario. Su aporte fue el descubrimiento que dentro de los componentes electrónicos se puede usar una serie de hardware para realizar el computo y almacenar datos dentro de memoria y genera la primera computadora a la cual se le puede introducir un programa.
     
-![]({{site.baseurl}}//img4.png)
+![assets/img4.png](assets/img4.png)
 
        
     4. En 1950, Microchip, ejemplo Apple 1
     
-  ![]({{site.baseurl}}//img5.png)
+![assets/img5.png](assets/img5.png)
   
 
 
     5. En siglo XX, Arquitectura de Richard Feymann, aporta las bases matemáticas de computo cuántico.
 
 
-![img6.png]({{site.baseurl}}/img6.png)  ![img7png.png]({{site.baseurl}}/img7png.png)
+![assets/img6.png](assets/img6.png)  ![assets/img7.png](assets/img7.png)
 
 
 
@@ -169,7 +169,7 @@ Existe:
 
 ### Lenguajes de programación
 
-![img8.png]({{site.baseurl}}/img8.png)
+![assets/img8.png](assets/img8.png)
 
 Podemos escribir programación de tal forma que lo entendamos los humanos y podemos traducir instrucciones de computo en 1 y 0 que las computadoras pueden entender.
 
@@ -190,32 +190,32 @@ Si estás usando Windows asegúrate de instalar lo siguiente en tu computadora:
 Python 3.7 (o superior)
 1. Para obtener el instalador dirígete a https://www.python.org/downloads/
 
-![]({{site.baseurl}}//img.jpg)
+![assets/img9.jpg](assets/img9.jpg)
 
 2. Descarga el instalador y ejecútalo en tu computadora.
 
-![img2.jpg]({{site.baseurl}}/img2.jpg)
+![assets/img10.jpg](assets/img10.jpg)
 
 
 3. Habilita la casilla de verificación en Install launcher for all users y Add Python 3.8 to PATH. A continuación presiona en Install Now. Windows te solicitará permisos para instalar Python en tu computadora.
 
-![img3.jpg]({{site.baseurl}}/img3.jpg)
+![assets/img11.jpg](assets/img11.jpg)
 
 
 4. Al finalizar la instalación se abrirá una ventana como la siguiente, en ella deberás presionar en la opción Disable path length limit. Windows te solicitará permisos para realizar este cambio.
 
-![img4.jpg]({{site.baseurl}}/img4.jpg)
+![assets/img12.jpg](assets/img12.jpg)
 
 
 ### Visual Studio Code
 En el curso el profesor utiliza Visual Studio Code, un editor de textos que tiene integradas varias herramientas que te ayudarán a desarrollar tus ejercicios con facilidad. Para obtenerlo en tu computadora, dirígete a: https://code.visualstudio.com/
 
-![img5.jpg]({{site.baseurl}}/img5.jpg)
+![assets/img13.jpg](assets/img13.jpg)
 
 
 1. Realiza una instalación normal de Visual Studio code.
 
-![]({{site.baseurl}}//img6.jpg)
+![assets/img14.jpg](assets/img14.jpg)
 
 Una vez instalado se ejecutará Visual Studio Code.
 2. En Visual Studio Code dirígete al panel de Extensiones, se encuentra en el panel lateral izquierdo. Ahí deberás buscar la extensión llamada Python.
