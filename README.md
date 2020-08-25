@@ -220,17 +220,17 @@ En el curso el profesor utiliza Visual Studio Code, un editor de textos que tien
 Una vez instalado se ejecutará Visual Studio Code.
 2. En Visual Studio Code dirígete al panel de Extensiones, se encuentra en el panel lateral izquierdo. Ahí deberás buscar la extensión llamada Python.
 
-![]({{site.baseurl}}//img7.jpg)
+![assets/img15.jpg](assets/img15.jpg)
 
 3. Selecciona la extensión creada por Microsoft, la identificarás por ser similar a la que se muestra en la imágen. Una vez seleccionada, instálala
 
-![]({{site.baseurl}}//img8.jpg)
+![assets/img16.jpg](assets/img16.jpg)
 
 4. Una vez instalada, reinicia Visual Studio Code.
 Listo con esto podrás correr los programas que escribas en python en la terminal de Visual Studio Code.
 Cuando quieras correr tu programa en la terminal de Visual Studio Code, puedes introducir la dirección como lo muestra el profesor en el curso o presionar en el botón “Run Python File in Terminal”
 
-![img9.jpg]({{site.baseurl}}/img9.jpg)
+![assets/img17.jpg](assets/img17.jpg)
 
 
 ## Clase 6 Elementos basicos de python
@@ -248,6 +248,8 @@ Python es un lenguaje de alto nivel en general en el que se puede implementar cu
 
 ### Elementos basico de Python
 
+![assets/img18.png](assets/img18.png)
+
 ### Objetos, expresiones y tipos numericos
 Objetos
 Son la abstraccion mas alta dentro de cualquier lenguaje de programacion, son la forma en la que modelamos el mundo dentro de la computadora, los objetos son valores en memoria que podemos  referenciar con algun tipo de variable
@@ -259,19 +261,38 @@ Tipos
     • objetos mas complejos
 
 Los tipos se pueden dividir entre escalares y no escalares
+
+![assets/img19.png](assets/img19.png)
     • Significa que podemos subdividir o no pequeñas piezas como el lego 
+
+    ![assets/img20.png](assets/img20.png)
 
 
 ## Clase 7 Asignación de variables
 Las variables son nombres que se vinculan con un valor en memoria y se hace a través del operador de asignación que es “=”
+
+![assets/img21.png](assets/img21.png)
+
+
 La anterior seria una forma basica para realizar una operación, pero es importante tener en cuenta que debe tener un sentido como el siguiente
+
+![assets/img22.png](assets/img22.png)
+
 Las variables deben tener nombre que signifique algo para los humanos 
 Es posible reasignar variables en cualquier lenguaje de programación
+
+![assets/img23.png](assets/img23.png)
+
 Esta es una representación de como se vería en memoria en el anterior slide 
+
+![assets/img24.png](assets/img24.png)
 
 Reglas de las variables
     • Pueden contener mayúsculas, minúsculas, números(sin comenzar con uno) y el símbolo _
     • No pueden llamarse como las palabras reservadas del lenguaje 
+
+    ![assets/img25.png](assets/img25.png)
+
     • hacen los programas mas comprensibles
     • son simplemente nombres que apuntan a un valor en memoria
     • El operador de asignacion (=) asocia una variable con un valor
