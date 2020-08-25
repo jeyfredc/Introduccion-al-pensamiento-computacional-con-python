@@ -291,7 +291,7 @@ Reglas de las variables
     • Pueden contener mayúsculas, minúsculas, números(sin comenzar con uno) y el símbolo _
     • No pueden llamarse como las palabras reservadas del lenguaje 
 
-    ![assets/img25.png](assets/img25.png)
+![assets/img25.png](assets/img25.png)
 
     • hacen los programas mas comprensibles
     • son simplemente nombres que apuntan a un valor en memoria
@@ -301,11 +301,21 @@ Reglas de las variables
 ## Clase 8 cadenas y entradas
 Las cadenas son secuencias de caracteres 
 Ejemplos de estos en la consola con python3
+
+![assets/img26.png](assets/img26.png)
+
 Se pueden aplicar diferentes funciones a las cadenas (Strings)
     • len (longitud) → Nos da la longitud de la cadena
     • indexing (indexacion) → para acceder a cada uno de los elementos  de la cadena a traves de indices 
     • slicing (rebanadas) → Se puede dividir una cadena en rebanadas para poder obtener sub cadenas o sub strings que se puede manipular con posterioridad
     • my_str[comienzo:fin:pasos]
+
+![assets/img27.png](assets/img27.png)
+
+![assets/img28.png](assets/img28.png)
+
+![assets/img29.png](assets/img29.png)
+
 
     • Los objetos de tipo str pueden representarse con “ ” o ‘ ’
     • El operador + tiene diferente significado según el tipo de dato (overloaded). Con cadenas significa concatenacion
@@ -315,25 +325,27 @@ Se pueden aplicar diferentes funciones a las cadenas (Strings)
     • Python tiene la función input para recibir datos del usuario del programa
     • input siempre regresa cadenas, por lo que si queremos utilizar otro tipo, tenemos que hacer type casting
 
+![assets/img30.png](assets/img30.png)
 
 
 A continuación se utiliza casting
 
+![assets/img31.png](assets/img31.png)
+
 ## Clase 9 Programas ramificados
 operadores de comparación y lógicos que sirven para determinar el resultado de una operación, estos operadores ayudan a tomar decisiones que pueden estar en una condición 
 
+![assets/img32.png](assets/img32.png)
 
+![assets/img33.png](assets/img33.png)
 
+![assets/img34.png](assets/img34.png)
 
-
-
-
-
-
-
-
+![assets/img35.png](assets/img35.png)
 
 la Indentancion es el espaciado y la forma en que se indenta después de una función o condición es con 4 espacios
+
+
 ## Clase 10 iteraciones o Loops
     • La mayoría de las tareas computacionales no se pueden lograr con ramificaciones
     • Cuando queremos que un programa haga lo mismo varias veces, utilizamos iteraciones
@@ -342,23 +354,38 @@ la Indentancion es el espaciado y la forma en que se indenta después de una fun
     • Tener cuidado de iteraciones infinitas porque entonces el programa no se puede detener aunque en python se puede utilizar Ctrl + C para matar un proceso y en general tambien se puede realizar esto en la terminal
 
 
-
-
 ## Clase 11 Bucles for
 Los bucles, en diversos lenguajes de programación pueden ser definidos o indefinidos. Los bucles definidos preestablecen las condiciones de la iteración por adelantado. Por su parte, los bucles indefinidos establecen la condición en la que una iteración terminará. En este último tipo de bucles existe el riesgo de que el bucle se vuelva infinito (cuando la condición de suspensión nunca se cumple).
+
 Los bucles definidos se implementan en Python a través del keyword for. Por su parte, los bucles indefinidos se implementan con el keyword while.
+
+
 Sin embargo, esta no es la única forma de implementar bucles definidos. Por ejemplo, Javascript puede implementar un bucle definido mediante el siguiente constructo:
+
+'''
 for (i = 0; i <= 10; i++) {
   <expresión>
 }
+'''
+
 El bucle se puede leer de la siguiente manera:
+
+
     • Inicializa el bucle en 0
+
     • Continua el bucle mientras i sea menor o igual que 10
+
     • Incrementa i en uno al final de cada iteración
+
 Es importante señalar que la expresión i++ es equivalente a lo que en Python escribiríamos como i += 1.
+
 Una segunda forma de crear un bucle definido es iterando en una colección de objetos. Esta es la forma que Python utiliza:
+
+'''
 for <variable> in <iterable>:
     <expresión>
+'''
+
 ### El bucle for en Python
 En la definición anterior debemos entender <iterable> como una colección de objetos; y la <variable> como el elemento específico que se está exponiendo mediante el bucle en cada iteración.
 >>> frutas = ['manzana', 'pera', 'mango']
