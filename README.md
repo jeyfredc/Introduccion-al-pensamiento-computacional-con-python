@@ -3,119 +3,119 @@
 
 **Contenido**
 
-[Clase 3 Introducción al computo]()
+[Clase 3 Introducción al computo](#Clase-3-Introducción-al-computo])
 
-[Computo y computadoras]()
+[Computo y computadoras](#Computo-y-computadoras)
 
-[Clase 4 Introducción a los lenguajes de programación]()
+[Clase 4 Introducción a los lenguajes de programación](#Clase-4-Introducción-a-los-lenguajes-de-programación)
 
-[¿Como dar instrucciones?]()
+[¿Como dar instrucciones?](#¿Como-dar-instrucciones?)
 
-[Lenguajes de programación]()
+[Lenguajes de programación](#Lenguajes-de-programación)
 
-[Todos los lenguajes tienen:]()
+[Todos los lenguajes tienen:](#Todos-los-lenguajes-tienen:)
 
-[Clase 5 Preparación de tu computadora]()
+[Clase 5 Preparación de tu computadora](#Clase-5-Preparación-de-tu-computadora)
 
-[Visual Studio Code]()
+[Visual Studio Code](#Visual-Studio-Code)
 
-[Clase 6 Elementos basicos de python]()
+[Clase 6 Elementos basicos de python](#Clase-6-Elementos-basicos-de-python)
 
-[• Bajo Nivel vs Alto Nivel]()
+[• Bajo Nivel vs Alto Nivel](#•-Bajo-Nivel-vs-Alto-Nivel)
 
-[• General vs Dominio especifico]()
+[• General vs Dominio especifico](#•-General-vs-Dominio-especifico)
 
-[• Interpretado vs Compilado]()
+[• Interpretado vs Compilado](#•-Interpretado-vs-Compilado)
 
-[Elementos basico de Python]()
+[Elementos basico de Python](#Elementos-basico-de-Python)
 
-[Objetos, expresiones y tipos numericos]()
+[Objetos, expresiones y tipos numericos](#Objetos,-expresiones-y-tipos-numericos)
 
-[Clase 7 Asignación de variables]()
+[Clase 7 Asignación de variables](#Clase-7-Asignación-de-variables)
 
-[Clase 8 cadenas y entradas]()
+[Clase 8 cadenas y entradas](#Clase-8-cadenas-y-entradas)
 
-[Entradas (inputs)]()
+[Entradas (inputs)](#Entradas-(inputs))
 
-[Clase 9 Programas ramificados]()
+[Clase 9 Programas ramificados](#Clase-9-Programas-ramificados)
 
-[Clase 10 iteraciones o Loops]()
+[Clase 10 iteraciones o Loops](#Clase-10-iteraciones-o-Loops)
 
-[Clase 11 Bucles for]()
+[Clase 11 Bucles for](#Clase-11-Bucles-for)
 
-[El bucle for en Python]()
+[El bucle for en Python](#El-bucle-for-en-Python)
 
-[Iterables]()
+[Iterables](#Iterables)
 
-[Iterators]()
+[Iterators](#Iterators)
 
-[Bucles for con diccionarios]()
+[Bucles for con diccionarios](#Bucles-for-con-diccionarios)
 
-[Modificación del comportamiento de un bucle for]()
+[Modificación del comportamiento de un bucle for](#Modificación-del-comportamiento-de-un-bucle-for)
 
-[Conclusiones]()
+[Conclusiones](#Conclusiones)
 
-[Clase 12 Representación de flotantes]()
+[Clase 12 Representación de flotantes](#Clase-12-Representación-de-flotantes)
 
-[Clase 13 Enumeración exhaustiva]()
+[Clase 13 Enumeración exhaustiva](#Clase-13-Enumeración-exhaustiva)
 
-[Clase 14 Aproximación de soluciones]()
+[Clase 14 Aproximación de soluciones](#Clase-14-Aproximación-de-soluciones)
 
-[Clase 15 Búsqueda binaria]()
+[Clase 15 Búsqueda binaria](#Clase-15-Búsqueda-binaria)
 
-[Clase 16 Funciones y alcance de las funciones]()
+[Clase 16 Funciones y alcance de las funciones](#Clase-16-Funciones-y-alcance-de-las-funciones)
 
-[Abstracción]()
+[Abstracción](#Abstracción)
 
-[Decomposicion]()
+[Decomposicion](#Decomposicion)
 
-[Definición de funciones]()
+[Definición de funciones](#Definición-de-funciones)
 
-[Clase 17 Scope o alcance]()
+[Clase 17 Scope o alcance](#Clase-17-Scope-o-alcance)
 
-[Alcance]()
+[Alcance](#Alcance)
 
-[Clase 18 Especificaciones del código ]()
+[Clase 18 Especificaciones del código](#Clase-18-Especificaciones-del-código)
 
-[Clase 19 Recursividad]()
+[Clase 19 Recursividad](#Clase-19-Recursividad)
 
-[Clase 20 Fibonnacci y la Recursividad]()
+[Clase 20 Fibonnacci y la Recursividad](#Clase-20-Fibonnacci-y-la-Recursividad)
 
-[Clase 21 Funciones como objetos]()
+[Clase 21 Funciones como objetos](#Clase-21-Funciones-como-objetos)
 
-[Funciones como objetos]()
+[Funciones como objetos](#Funciones-como-objetos)
 
-[Argumentos de otras funciones]()
+[Argumentos de otras funciones](#Argumentos-de-otras-funciones)
 
-[Funciones en expresiones]()
+[Funciones en expresiones](#Funciones-en-expresiones)
 
-[Funciones en estructuras de datos]()
+[Funciones en estructuras de datos](#Funciones-en-estructuras-de-datos)
 
-[Clase 22 Tuplas]()
+[Clase 22 Tuplas](#Clase-22-Tuplas)
 
-[Tuplas]()
+[Tuplas](#Tuplas)
 
-[Clase 23 Rangos]()
+[Clase 23 Rangos](#Clase-23-Rangos)
 
-[Clase 24 Listas y mutabilidad]()
+[Clase 24 Listas y mutabilidad](#Clase-24-Listas-y-mutabilidad)
 
-[Clonacion]()
+[Clonacion](#Clonacion)
 
-[List comprehension]()
+[List comprehension](#List-comprehension)
 
-[Clase 25 Diccionarios]()
+[Clase 25 Diccionarios](#Clase-25-Diccionarios)
 
-[Clase 26 Pruebas de caja negra]()
+[Clase 26 Pruebas de caja negra](#Clase-26-Pruebas-de-caja-negra)
 
-[Clase 27 Pruebas de caja de cristal]()
+[Clase 27 Pruebas de caja de cristal](#Clase-27-Pruebas-de-caja-de-cristal)
 
-[Clase 28 Debugging]()
+[Clase 28 Debugging](#Clase-28-Debugging)
 
-[Clase 29 manejo de excepciones]()
+[Clase 29 manejo de excepciones](#Clase-29-manejo-de-excepciones)
 
-[Clase 30 Excepciones y control de flujo]()
+[Clase 30 Excepciones y control de flujo](#Clase-30-Excepciones-y-control-de-flujo)
 
-[Clase 31 Afirmaciones]()
+[Clase 31 Afirmaciones](#Clase-31-Afirmaciones)
 
 
 ## Clase 3 Introducción al computo
