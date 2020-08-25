@@ -39,6 +39,84 @@
 
 [Clase 9 Programas ramificados]()
 
+[Clase 10 iteraciones o Loops]()
+
+[Clase 11 Bucles for]()
+
+[El bucle for en Python]()
+
+[Iterables]()
+
+[Iterators]()
+
+[Bucles for con diccionarios]()
+
+[Modificación del comportamiento de un bucle for]()
+
+[Conclusiones]()
+
+[Clase 12 Representación de flotantes]()
+
+[Clase 13 Enumeración exhaustiva]()
+
+[Clase 14 Aproximación de soluciones]()
+
+[Clase 15 Búsqueda binaria]()
+
+[Clase 16 Funciones y alcance de las funciones]()
+
+[Abstracción]()
+
+[Decomposicion]()
+
+[Definición de funciones]()
+
+[Clase 17 Scope o alcance]()
+
+[Alcance]()
+
+[Clase 18 Especificaciones del código ]()
+
+[Clase 19 Recursividad]()
+
+[Clase 20 Fibonnacci y la Recursividad]()
+
+[Clase 21 Funciones como objetos]()
+
+[Funciones como objetos]()
+
+[Argumentos de otras funciones]()
+
+[Funciones en expresiones]()
+
+[Funciones en estructuras de datos]()
+
+[Clase 22 Tuplas]()
+
+[Tuplas]()
+
+[Clase 23 Rangos]()
+
+[Clase 24 Listas y mutabilidad]()
+
+[Clonacion]()
+
+[List comprehension]()
+
+[Clase 25 Diccionarios]()
+
+[Clase 26 Pruebas de caja negra]()
+
+[Clase 27 Pruebas de caja de cristal]()
+
+[Clase 28 Debugging]()
+
+[Clase 29 manejo de excepciones]()
+
+[Clase 30 Excepciones y control de flujo]()
+
+[Clase 31 Afirmaciones]()
+
 
 ## Clase 3 Introducción al computo
 
@@ -569,7 +647,7 @@ Ahora en el caso que a la función suma se le pase un valor como parámetro abso
     • Prueba todos los caminos posibles de una funcion. Ramificaciones, bucles for y while, recursion
     • regression testing o mocks
 En este caso se asume que se conoce toda la implementación del código pero se generan las mismas pruebas para que se implementan en las pruebas de caja negra, solo que en este punto ya es mas facil generar estos errores porque se conoce el codigo
-Clase 28 Debugging
+## Clase 28 Debugging
 Los programas tienen tendencia a generar bugs por eso se implementa el debugging, los bugs son errores que nosotros como humanos generamos en nuestro codigo y estas son reglas generales para tratar errores
     • No te molestes con el debugger. Aprende a utilizar el print statement, es decir hacer impresiones de codigo para ver que esta pasando antes de que se genere el resultado
     • Estudia los datos disponibles
@@ -586,7 +664,7 @@ Errores comunes
     • Explicale el problema a otra persona. De preferencia que no tenga contexto
     • Lleva un registro de lo que has tratado, preferentemente en la forma de test
     • Vete a dormir
-Clase 29 manejo de excepciones
+## Clase 29 manejo de excepciones
     • Son muy comunes en la programación. No tienen nada de excepcional
     • las excepciones de Python normalmente se relacionan con errores de semántica
     • Se pueden crear excepciones propias
@@ -605,7 +683,7 @@ para poder manejar este error se realiza la siguiente implementación de código
 
 
 
-Clase 30 Excepciones y control de flujo
+## Clase 30 Excepciones y control de flujo
 Excepciones como control de flujo
 Hasta ahora hemos visto como las excepciones nos permiten controlar los posibles errores que pueden ocurrir en nuestro código. Sin embargo, dentro de la comunidad de Python tienen otro uso: control de flujo.
 En este momento ya debes estar familiarizado con las estructuras de control flujo que ofrece Python (if... elif...else); entonces, ¿por qué es necesaria otra modalidad para controlar el flujo? Una razón muy específica: el principio EAFP (easier to ask for forgiveness than permission, es más fácil pedir perdón que permiso, por sus siglas en inglés).
@@ -638,7 +716,7 @@ function buscaPais(paises, pais) {
 }
 Como puedes ver, el código de Python accede directamente a la llave y únicamente si dicho acceso falla, entonces se captura la excepción y se provee el código necesario. En el caso de JavaScript, se verifica primero que la llave exista en el objeto y únicamente con posterioridad se accede.
 Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el estilo EAFP es mucho más “pythonico”.
-Clase 31 Afirmaciones
+## Clase 31 Afirmaciones
     • Programación defensiva se utiliza por ejemplo para decir si algo es verdadero o falso
     • Pueden utilizarse para verificar que los tipos sean correctos en una función
     • También sirven para debuguear
