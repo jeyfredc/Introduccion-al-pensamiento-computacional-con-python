@@ -362,11 +362,11 @@ Los bucles definidos se implementan en Python a través del keyword for. Por su
 
 Sin embargo, esta no es la única forma de implementar bucles definidos. Por ejemplo, Javascript puede implementar un bucle definido mediante el siguiente constructo:
 
-'''
+```
 for (i = 0; i <= 10; i++) {
   <expresión>
 }
-'''
+```
 
 El bucle se puede leer de la siguiente manera:
 
@@ -381,7 +381,7 @@ Es importante señalar que la expresión i++ es equivalente a lo que en Python
 
 Una segunda forma de crear un bucle definido es iterando en una colección de objetos. Esta es la forma que Python utiliza:
 
-'''
+
 for <variable> in <iterable>:
     <expresión>
 '''
