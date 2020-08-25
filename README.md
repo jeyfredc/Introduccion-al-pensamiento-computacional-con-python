@@ -734,16 +734,19 @@ Tipos estructurados, mutabilidad y funciones de alto nivel, permiten agrupar muc
 
     • Puede utilizarse para devolver varios valores en una funcion
 
-![assets/img41.png](assets/img41.png)
+![assets/img42.png](assets/img42.png)
 
 Para definir las tuplas primero se debe añadir una coma porque por ejemplo si se define una variable unica sin coma se toma como otro tipo de valor 
 
-![assets/img42.png](assets/img42.png)
+![assets/img43.png](assets/img43.png)
 
 Se pueden sumar tuplas para generar nuevas tuplas, pero no se estan mutando como tal
+
+![assets/img44.png](assets/img44.png)
+
 Las tuplas tienen el concepto de desempaquetar que es asignar lo que esta dentro de la tupla a variables
 
-![assets/img43.png](assets/img43.png)
+![assets/img45.png](assets/img45.png)
 
 ## Clase 23 Rangos
 
@@ -757,11 +760,11 @@ Las tuplas tienen el concepto de desempaquetar que es asignar lo que esta dentro
     
     • Se debe tener en cuenta que el ultimo numero no es inclusivo y por la razon de la comparacion de estos dos rangos son ciertas
 
-![assets/img44.png](assets/img44.png)
+![assets/img79.png](assets/img79.png)
 
 los objetos no son los mismos porque al solicitar el id en memoria generan otro tipo de ubicación o almacenamiento aunque si son muy cercanos y dentro del mismo programa se hace la comprobacion my_range es un objeto distinto de my_other_range
 
-![assets/img45.png](assets/img45.png)
+![assets/img80.png](assets/img80.png)
 
 ## Clase 24 Listas y mutabilidad
 
@@ -777,7 +780,7 @@ los objetos no son los mismos porque al solicitar el id en memoria generan otro 
 
         ◦ Utilizar los metodos de la lista(append, pop, remove, insert, etc) → estos metodos permiten agregar, quitar, remover un elemento dentro de un indice, insertar
 
-![assets/img46.png](assets/img46.png)
+
 
     • Hay que tener cuidado a la hora de trabajar con listas porque muchos de los errores en programación que ocurren son gracias a ellas al ser mutables 
 
