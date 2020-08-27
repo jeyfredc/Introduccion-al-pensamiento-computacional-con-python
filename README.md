@@ -13,7 +13,7 @@
 
 [Lenguajes de programación](#Lenguajes-de-programación)
 
-[Todos los lenguajes tienen:](#Todos-los-lenguajes-tienen:)
+[Todos los lenguajes tienen:](#Todos-los-lenguajes-tienen)
 
 [Clase 5 Preparación de tu computadora](#Clase-5-Preparación-de-tu-computadora)
 
