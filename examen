@@ -1,0 +1,24 @@
+1. ¿Qué implica escribir código en un lenguaje compilado? Se debe convertir el codigo en un lenguaje maquina antes de entregarlo a la computadora
+2. El condicional elif sirve para: Encadenar otra condicion en caso de que if sea falso
+3. Si ejecutas el siguiente código en la consola de Python: a = True
+b = False
+print (a and b) 
+¿Cuál sería el resultado? False
+4. La decomposición permite: Dividir el codigo en componentes que colaboran con un fin en comun
+5. ¿Qué hace eficiente al algoritmo de búsqueda binaria? Buscar rapidamente cuando nuestro conjunto de datos esta ordenado
+6. De las siguientes opciones, ¿cuáles son literales? 15, 'abc', 3.5, false
+7. Como buena práctica, ¿las variables deben tener un nombre que signifique algo para la persona que programa? Verdadero
+8. ¿Qué sucede al realizar la operación ‘123’ + ‘456’? Python imprime 123456
+9. ¿Cuál es la instrucción de Python que nos permite ver en consola el registro de las soluciones que están dando en un programa? print
+10. ¿Cuál fue la primera computadora digital? ENIAC
+11. ¿Con un lenguaje de programación de tipo “Turing Complete” se puede implementar cualquier algoritmo? Verdadero
+12. Cuando un lenguaje de programación es de alto nivel significa que: Esta enfocado en el entendimiento de los humanos
+13. Una buena forma de identificar nuestros errores en el código es a través del: print statement
+14. ¿Qué sucede si se introduce 5 / 'Platzi' en la consola de Python? se muestra un TypeError
+15. ¿Qué es lo que aportó el Telar de Jaquard al concepto de computadora? Tarjetas perforadoras que representan informacion
+16. ¿En qué rama del conocimiento se encuentran los algoritmos? Imperativo
+17. El algoritmo de enumeración exhaustiva consiste en: Identificar todas las posibilidades para llegar a un resultado
+18. ¿Cuál es la ventaja de las iteraciones (loops) comparado con los programas ramíficados? Establecer que una instruccion se repita constantemente hasta llegar a un resultado especifico
+19. ¿Qué son las variables? Nombres que se vinculan con un valor en memoria a traves del operador de asignacion
+20. ¿Es una buena práctica escribir largos archivos de código con programas ramificados? No
+

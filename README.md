@@ -132,29 +132,26 @@
 
 ![assets/img1.png](assets/img1.png)
 
-    1. En 1801, Telar de Jacquar, separa el resultado de la informacion que contiene las instrucciones para poder realizar muchos tipos de telas.Siglo XIX, Motor analítico de Babbage, haciendo uso del avances en mecánica (engranajes) de su época logra separar instrucciones de calculo y realizar varios cálculos a la vez.
+1. En 1801, Telar de Jacquar, separa el resultado de la informacion que contiene las instrucciones para poder realizar muchos tipos de telas.Siglo XIX, Motor analítico de Babbage, haciendo uso del avances en mecánica (engranajes) de su época logra separar instrucciones de calculo y realizar varios cálculos a la vez.
     
 ![assets/img2.png](assets/img2.png)
    
 
-    2. Finales siglo XIX, ENIAC (Electronic Numerical Integrator and Computer) usaba sistema decimal. creada por Alan Turing y Alonso Church. Esta época exigía exactitud en los cálculos que hacían que compañías dependieran de esta(Compañías Ferroviarias por ejemplo). Turing y Alonso, Descubrieron que matemáticamente todos los algoritmos podíamos reducirlos a una secuencia de soluciones matemáticas.
+2. Finales siglo XIX, ENIAC (Electronic Numerical Integrator and Computer) usaba sistema decimal. creada por Alan Turing y Alonso Church. Esta época exigía exactitud en los cálculos que hacían que compañías dependieran de esta(Compañías Ferroviarias por ejemplo). Turing y Alonso, Descubrieron que matemáticamente todos los algoritmos podíamos reducirlos a una secuencia de soluciones matemáticas.
 
 ![assets/img.png](assets/img3.png)
 
 
-    3. En 1945, Arquitectura de Von Neumann, EDVAC (Electronic Discrete Variable Automatic Computer) usaba sistema binario. Su aporte fue el descubrimiento que dentro de los componentes electrónicos se puede usar una serie de hardware para realizar el computo y almacenar datos dentro de memoria y genera la primera computadora a la cual se le puede introducir un programa.
+3. En 1945, Arquitectura de Von Neumann, EDVAC (Electronic Discrete Variable Automatic Computer) usaba sistema binario. Su aporte fue el descubrimiento que dentro de los componentes electrónicos se puede usar una serie de hardware para realizar el computo y almacenar datos dentro de memoria y genera la primera computadora a la cual se le puede introducir un programa.
     
 ![assets/img4.png](assets/img4.png)
 
        
-    4. En 1950, Microchip, ejemplo Apple 1
+4. En 1950, Microchip, ejemplo Apple 1
     
 ![assets/img5.png](assets/img5.png)
   
-
-
-    5. En siglo XX, Arquitectura de Richard Feymann, aporta las bases matemáticas de computo cuántico.
-
+5. En siglo XX, Arquitectura de Richard Feymann, aporta las bases matemáticas de computo cuántico.
 
 ![assets/img6.png](assets/img6.png)  ![assets/img7.png](assets/img7.png)
 
@@ -162,18 +159,22 @@
 
 ### Computo y computadoras
 
-    • Las computadoras hacer dos cosas: hacen  cálculos y recuerdan el resultado de dichos cálculos
-    • Por la mayoría de la historia humana, estábamos limitados por la velocidad del cerebro y la mano
-    • Aun con las computadoras modernas existen problemas que no podemos resolver
+- Las computadoras hacer dos cosas: hacen  cálculos y recuerdan el resultado de dichos cálculos
+
+- Por la mayoría de la historia humana, estábamos limitados por la velocidad del cerebro y la mano
+
+- Aun con las computadoras modernas existen problemas que no podemos resolver
     
 ## Clase 4 Introducción a los lenguajes de programación
 
 ### ¿Como dar instrucciones?
 
-Existe:
-    • Conocimiento declarativo → Nos dice que tipo de relaciones existen entre diversas variables u objetos como una formula matemática
-    • Conocimiento imperativo → Nos dice como llegar a un resultado por ejemplo a través de los algoritmos
-        ◦ Que es un algoritmo → Un algoritmo es una lista finita de instrucciones que describen un computo, que cuando se ejecuta con ciertas entradas(inputs) ejecuta pasos intermedios para llegar a un resultado(output). 
+**Existe:**
+- Conocimiento declarativo → Nos dice que tipo de relaciones existen entre diversas variables u objetos como una formula matemática
+
+- Conocimiento imperativo → Nos dice como llegar a un resultado por ejemplo a través de los algoritmos
+
+    -Que es un algoritmo → Un algoritmo es una lista finita de instrucciones que describen un computo, que cuando se ejecuta con ciertas entradas(inputs) ejecuta pasos intermedios para llegar a un resultado(output). 
 
 ### Lenguajes de programación
 
@@ -187,15 +188,18 @@ Guido Van Rossum se dio cuenta que una cosa de los lenguajes de programación er
 
 ### Todos los lenguajes tienen:
 
-    • Sintaxis → Define la secuencia de símbolos que esta bien formada
-    • Semántica estática → Define que enunciados con sintaxis correcta tienen significado
-    • Semántica → Define el significado. En los lenguajes de programación solo hay un significado 
+- Sintaxis → Define la secuencia de símbolos que esta bien formada
+
+- Semántica estática → Define que enunciados con sintaxis correcta tienen significado
+
+- Semántica → Define el significado. En los lenguajes de programación solo hay un significado 
 
 ## Clase 5 Preparación de tu computadora
 
 Antes de comenzar este curso asegúrate de preparar tu entorno de trabajo para poder hacer todos los ejercicios. A continuación te compartiré los pasos que debes seguir para configurar tu computadora.
 Si estás usando Windows asegúrate de instalar lo siguiente en tu computadora:
 Python 3.7 (o superior)
+
 1. Para obtener el instalador dirígete a https://www.python.org/downloads/
 
 ![assets/img9.jpg](assets/img9.jpg)
@@ -235,23 +239,33 @@ Una vez instalado se ejecutará Visual Studio Code.
 ![assets/img16.jpg](assets/img16.jpg)
 
 4. Una vez instalada, reinicia Visual Studio Code.
+
 Listo con esto podrás correr los programas que escribas en python en la terminal de Visual Studio Code.
+
 Cuando quieras correr tu programa en la terminal de Visual Studio Code, puedes introducir la dirección como lo muestra el profesor en el curso o presionar en el botón “Run Python File in Terminal”
 
 ![assets/img17.jpg](assets/img17.jpg)
 
 
 ## Clase 6 Elementos basicos de python
-Lenguajes de programación
-     • Bajo Nivel vs Alto Nivel
-        ◦ Alto nivel significa que esta diseñado para los humanos que se acerca mas al nivel al que utilizamos los seres humanos que al lenguaje de las maquinas
-        ◦ Bajo nivel significa que esta optimizado para que una maquina pueda entenderlo se parece mas a los 1 y 0
-     • General vs Dominio especifico
-        ◦ Los generales significa que tiene todos los primitivos que otorga touring que necesitabamos para poder implementar y computar cualquier tipo de algoritmo
-        ◦ Dominio especifico son lenguajes especializados que estan targueteados a aplicaciones muy especificas
-     • Interpretado vs Compilado
-        ◦ Los lenguajes interpŕetados significa que mientras corre el programa despues de cada instrucción se traduce al lenguaje maquina
-        ◦ El lenguaje compilado significa que nosotros convertimos antes de entregarselo a la computadora en un lenguaje maquina 
+**Lenguajes de programación**
+- **Bajo Nivel vs Alto Nivel**
+    - Alto nivel significa que esta diseñado para los humanos que se acerca mas al nivel al que utilizamos los seres humanos que al lenguaje de las maquinas
+
+    - Bajo nivel significa que esta optimizado para que una maquina pueda entenderlo se parece mas a los 1 y 0
+
+    - General vs Dominio especifico
+
+        - Los generales significa que tiene todos los primitivos que otorga touring que necesitabamos para poder implementar y computar cualquier tipo de algoritmo
+
+        - Dominio especifico son lenguajes especializados que estan targueteados a aplicaciones muy especificas
+
+    - Interpretado vs Compilado
+
+        - Los lenguajes interpŕetados significa que mientras corre el programa despues de cada instrucción se traduce al lenguaje maquina
+
+        - El lenguaje compilado significa que nosotros convertimos antes de entregarselo a la computadora en un lenguaje maquina 
+
 Python es un lenguaje de alto nivel en general en el que se puede implementar cualquier tipo de algoritmo posible y a su vez este lenguaje traduce a la maquina 
 
 ### Elementos basico de Python
@@ -259,28 +273,36 @@ Python es un lenguaje de alto nivel en general en el que se puede implementar cu
 ![assets/img18.png](assets/img18.png)
 
 ### Objetos, expresiones y tipos numericos
-Objetos
+**Objetos**
+
 Son la abstraccion mas alta dentro de cualquier lenguaje de programacion, son la forma en la que modelamos el mundo dentro de la computadora, los objetos son valores en memoria que podemos  referenciar con algun tipo de variable
-Tipos
-    • Enteros
-    • Flotantes o Decimales
-    •  Booleanos
-    • vector
-    • objetos mas complejos
+
+**Tipos**
+
+- Enteros
+
+- Flotantes o Decimales
+
+- Booleanos
+
+- Vector
+
+- Objetos mas complejos
 
 Los tipos se pueden dividir entre escalares y no escalares
 
 ![assets/img19.png](assets/img19.png)
-    • Significa que podemos subdividir o no pequeñas piezas como el lego 
 
-    ![assets/img20.png](assets/img20.png)
+- Significa que podemos subdividir o no pequeñas piezas como el lego 
+
+![assets/img20.png](assets/img20.png)
 
 
 ## Clase 7 Asignación de variables
+
 Las variables son nombres que se vinculan con un valor en memoria y se hace a través del operador de asignación que es “=”
 
 ![assets/img21.png](assets/img21.png)
-
 
 La anterior seria una forma basica para realizar una operación, pero es importante tener en cuenta que debe tener un sentido como el siguiente
 
@@ -295,28 +317,36 @@ Esta es una representación de como se vería en memoria en el anterior slide
 
 ![assets/img24.png](assets/img24.png)
 
-Reglas de las variables
-    • Pueden contener mayúsculas, minúsculas, números(sin comenzar con uno) y el símbolo _
-    • No pueden llamarse como las palabras reservadas del lenguaje 
+**Reglas de las variables**
+
+- Pueden contener mayúsculas, minúsculas, números(sin comenzar con uno) y el símbolo _
+
+- No pueden llamarse como las palabras reservadas del lenguaje 
 
 ![assets/img25.png](assets/img25.png)
 
-    • hacen los programas mas comprensibles
-    • son simplemente nombres que apuntan a un valor en memoria
-    • El operador de asignacion (=) asocia una variable con un valor
 
+- hacen los programas mas comprensibles
+
+- son simplemente nombres que apuntan a un valor en memoria
+
+- El operador de asignacion (=) asocia una variable con un valor
 
 ## Clase 8 cadenas y entradas
+
 Las cadenas son secuencias de caracteres 
+
 Ejemplos de estos en la consola con python3
 
 ![assets/img26.png](assets/img26.png)
 
 Se pueden aplicar diferentes funciones a las cadenas (Strings)
-    • len (longitud) → Nos da la longitud de la cadena
-    • indexing (indexacion) → para acceder a cada uno de los elementos  de la cadena a traves de indices 
-    • slicing (rebanadas) → Se puede dividir una cadena en rebanadas para poder obtener sub cadenas o sub strings que se puede manipular con posterioridad
-    • my_str[comienzo:fin:pasos]
+
+- len (longitud) → Nos da la longitud de la cadena
+
+- indexing (indexacion) → para acceder a cada uno de los elementos  de la cadena a traves de indices 
+- slicing (rebanadas) → Se puede dividir una cadena en rebanadas para poder obtener sub cadenas o sub strings que se puede manipular con posterioridad
+- my_str[comienzo:fin:pasos]
 
 ![assets/img27.png](assets/img27.png)
 
@@ -324,17 +354,21 @@ Se pueden aplicar diferentes funciones a las cadenas (Strings)
 
 ![assets/img29.png](assets/img29.png)
 
+- Los objetos de tipo str pueden representarse con “ ” o ‘ ’
 
-    • Los objetos de tipo str pueden representarse con “ ” o ‘ ’
-    • El operador + tiene diferente significado según el tipo de dato (overloaded). Con cadenas significa concatenacion
-    • El operador * es el operador de repeticion con cadenas
-    • Las cadenas son inmutables significa que una vez que se declara en memoria ya no se puede modificar
+- El operador + tiene diferente significado según el tipo de dato (overloaded). Con cadenas significa concatenacion
+
+- El operador * es el operador de repeticion con cadenas
+
+- Las cadenas son inmutables significa que una vez que se declara en memoria ya no se puede modificar
+
 ### Entradas (inputs)
-    • Python tiene la función input para recibir datos del usuario del programa
-    • input siempre regresa cadenas, por lo que si queremos utilizar otro tipo, tenemos que hacer type casting
+
+- Python tiene la función input para recibir datos del usuario del programa
+
+- input siempre regresa cadenas, por lo que si queremos utilizar otro tipo, tenemos que hacer type casting
 
 ![assets/img30.png](assets/img30.png)
-
 
 A continuación se utiliza casting
 
@@ -355,18 +389,22 @@ la Indentancion es el espaciado y la forma en que se indenta después de una fun
 
 
 ## Clase 10 iteraciones o Loops
-    • La mayoría de las tareas computacionales no se pueden lograr con ramificaciones
-    • Cuando queremos que un programa haga lo mismo varias veces, utilizamos iteraciones
-    • Se pueden escribir iteraciones dentro de iteraciones
-    • Podemos utilizar break para salir anticipadamente de una iteración
-    • Tener cuidado de iteraciones infinitas porque entonces el programa no se puede detener aunque en python se puede utilizar Ctrl + C para matar un proceso y en general tambien se puede realizar esto en la terminal
 
+- La mayoría de las tareas computacionales no se pueden lograr con ramificaciones
+
+- Cuando queremos que un programa haga lo mismo varias veces, utilizamos iteraciones
+
+- Se pueden escribir iteraciones dentro de iteraciones
+
+- Podemos utilizar break para salir anticipadamente de una iteración
+
+- Tener cuidado de iteraciones infinitas porque entonces el programa no se puede detener aunque en python se puede utilizar Ctrl + C para matar un proceso y en general tambien se puede realizar esto en la terminal
 
 ## Clase 11 Bucles for
+
 Los bucles, en diversos lenguajes de programación pueden ser definidos o indefinidos. Los bucles definidos preestablecen las condiciones de la iteración por adelantado. Por su parte, los bucles indefinidos establecen la condición en la que una iteración terminará. En este último tipo de bucles existe el riesgo de que el bucle se vuelva infinito (cuando la condición de suspensión nunca se cumple).
 
 Los bucles definidos se implementan en Python a través del keyword for. Por su parte, los bucles indefinidos se implementan con el keyword while.
-
 
 Sin embargo, esta no es la única forma de implementar bucles definidos. Por ejemplo, Javascript puede implementar un bucle definido mediante el siguiente constructo:
 
@@ -378,12 +416,11 @@ for (i = 0; i <= 10; i++) {
 
 El bucle se puede leer de la siguiente manera:
 
+- Inicializa el bucle en 0
 
-    • Inicializa el bucle en 0
+- Continua el bucle mientras i sea menor o igual que 10
 
-    • Continua el bucle mientras i sea menor o igual que 10
-
-    • Incrementa i en uno al final de cada iteración
+- Incrementa i en uno al final de cada iteración
 
 Es importante señalar que la expresión i++ es equivalente a lo que en Python escribiríamos como i += 1.
 
@@ -395,6 +432,7 @@ for <variable> in <iterable>:
 ```
 
 ### El bucle for en Python
+
 En la definición anterior debemos entender <iterable> como una colección de objetos; y la <variable> como el elemento específico que se está exponiendo mediante el bucle en cada iteración.
 
 ```
@@ -410,9 +448,8 @@ mango
 ```
 
 ### Iterables
-En Python, un iterable es un objeto que se puede utilizar en un bucle definido. Si un objeto es iterable significa que se puede pasar como argumento a la función iter. El iterable que se pasa como parámetro a la función iter
-regresa un iterator.
 
+En Python, un iterable es un objeto que se puede utilizar en un bucle definido. Si un objeto es iterable significa que se puede pasar como argumento a la función iter. El iterable que se pasa como parámetro a la función iter regresa un iterator.
 
 ```
 >>> iter('cadena') # cadena
@@ -447,6 +484,7 @@ mango
 Como puedes ver, el iterator guarda el estado interno de la iteración, de tal manera que cada llamada sucesiva a next regresa el siguiente elemento. ¿Qué pasa una vez que ya no existan más elementos en el iterable? La llamada a next arrojará un error de tipo StopIteration.
 
 ### ¿Cómo implementa Python los bucles definidos?
+
 Ahora ya conocemos todos los elementos necesarios para entender que es lo que sucede en Python cuando ejecutamos un bucle for. Considera nuevamente el siguiente código:
 
 ```
@@ -466,13 +504,13 @@ Este bucle se puede describir con los conceptos que explicamos previamente:
 ### Bucles for con diccionarios
 Para iterar a lo largo de un diccionario tenemos varias opciones:
 
-    • Ejecutar el bucle for directamente en el diccionario, lo cual nos permite iterar a lo largo de las llaves del diccionario.
+- Ejecutar el bucle for directamente en el diccionario, lo cual nos permite iterar a lo largo de las llaves del diccionario.
 
-    • Ejecutar el bucle for en la llamada keys del diccionario, lo cual nos permite iterar a lo largo de las llaves del diccionario.
+- Ejecutar el bucle for en la llamada keys del diccionario, lo cual nos permite iterar a lo largo de las llaves del diccionario.
 
-    • Ejecutar el bucle for en la llamada values del diccionario, lo cual nos permite iterar a lo largo de los valores del diccionario.
+- Ejecutar el bucle for en la llamada values del diccionario, lo cual nos permite iterar a lo largo de los valores del diccionario.
 
-    • Ejecutar el bucle for en la llamada items del diccionario, lo cual nos permite iterar en una tupla de las llaves y los valores del diccionario.
+- Ejecutar el bucle for en la llamada items del diccionario, lo cual nos permite iterar en una tupla de las llaves y los valores del diccionario.
 
 ```
 estudiantes = {
@@ -586,12 +624,13 @@ Los lenguajes de programación modernos nos dan una serie de abstracciones que n
 
 ### Abstracción
 
-    • Significa que no se necesita entender  la forma en la que algo opera internamente para poderlo utilizar
+- Significa que no se necesita entender  la forma en la que algo opera internamente para poderlo utilizar
 
 ### Decomposicion
 
-    • Permite dividir el codigo en componentes que colaboran con un fin en comun
-    • Se puede pensar como mini programas dentro de un programa mayor
+- Permite dividir el codigo en componentes que colaboran con un fin en comun
+
+- Se puede pensar como mini programas dentro de un programa mayor
 
 ### Definición de funciones
 
@@ -622,7 +661,9 @@ La segunda manera es la programática que es una técnica mediante la cual una f
 ## Clase 20 Fibonnacci y la Recursividad
 
 La secuencia de Fibonacci es una función matemática que se define recursivamente. En el año 1202, el matemático italiano Leonardo de Pisa, también conocido como Fibonacci, encontró una fórmula para cuantificar el crecimiento que ciertas poblaciones experimentan.
+
 Imagina que una pareja de conejos nace, un macho y una hembra, y luego son liberados. Imagina, también, que los conejos se pueden reproducir hasta la edad de un mes y que tienen un periodo de gestación también de un mes. Por último imagina que estos conejos nunca mueren y que la hembra siempre es capaz de producir una nueva pareja (un macho y una hembra). ¿Cuántos conejos existirán al final de seis meses?
+
 Una forma de visualizar este crecimiento es mirándolo de forma tabular:
 
 ![assets/img41.png](assets/img41.png)
@@ -651,13 +692,13 @@ Una de las características más poderosas de Python es que todo es un objeto, i
 
 Esto, en sentido amplio, significa que en Python las funciones:
 
-    • Tienen un tipo
+- Tienen un tipo
 
-    • Se pueden pasar como argumentos de otras funciones
+- Se pueden pasar como argumentos de otras funciones
 
-    • Se pueden utilizar en expresiones
+- Se pueden utilizar en expresiones
 
-    • Se pueden incluir en varias estructuras de datos (como listas, tuplas, diccionarios, etc.)
+- Se pueden incluir en varias estructuras de datos (como listas, tuplas, diccionarios, etc.)
 
 ### Argumentos de otras funciones
 
@@ -728,11 +769,11 @@ Tipos estructurados, mutabilidad y funciones de alto nivel, permiten agrupar muc
 
 ### Tuplas
 
-    • Son secuencias inmutables de objetos
+- Son secuencias inmutables de objetos
 
-    • A diferencia de las cadenas pueden contener cualquier tipo de objeto
+- A diferencia de las cadenas pueden contener cualquier tipo de objeto
 
-    • Puede utilizarse para devolver varios valores en una funcion
+- Puede utilizarse para devolver varios valores en una funcion
 
 ![assets/img42.png](assets/img42.png)
 
@@ -750,15 +791,15 @@ Las tuplas tienen el concepto de desempaquetar que es asignar lo que esta dentro
 
 ## Clase 23 Rangos
 
-    • Representan una secuencia de enteros.
+- Representan una secuencia de enteros.
 
-    • range(comienzo, fin, pasos)
+- range(comienzo, fin, pasos)
 
-    • Al igual que las cadenas y las tuplas, los rangos son inmutables
+- Al igual que las cadenas y las tuplas, los rangos son inmutables
 
-    • Muy eficientes en uso de memoria y normalmente utilizados en for loops
+- Muy eficientes en uso de memoria y normalmente utilizados en for loops
     
-    • Se debe tener en cuenta que el ultimo numero no es inclusivo y por la razon de la comparacion de estos dos rangos son ciertas
+- Se debe tener en cuenta que el ultimo numero no es inclusivo y por la razon de la comparacion de estos dos rangos son ciertas
 
 ![assets/img79.png](assets/img79.png)
 
@@ -768,41 +809,39 @@ los objetos no son los mismos porque al solicitar el id en memoria generan otro 
 
 ## Clase 24 Listas y mutabilidad
 
-    • Son secuencias de objetos, pero a diferencia de las tuplas, si son mutables
+- Son secuencias de objetos, pero a diferencia de las tuplas, si son mutables
 
-    • Cuando modificas, una lista, pueden existir efectos secundarios(side effects)
+- Cuando modificas, una lista, pueden existir efectos secundarios(side effects)
 
-    • Es posible iterar con ellas  
+- Es posible iterar con ellas  
 
-    • Para modificar una listapodemos: 
+- Para modificar una listapodemos: 
 
-        ◦ Asignar via indice (my_lista[0]=5)
+    - Asignar via indice (my_lista[0]=5)
 
-        ◦ Utilizar los metodos de la lista(append, pop, remove, insert, etc) → estos metodos permiten agregar, quitar, remover un elemento dentro de un indice, insertar
+    - Utilizar los metodos de la lista(append, pop, remove, insert, etc) → estos metodos permiten agregar, quitar, remover un elemento dentro de un indice, insertar
 
-
-
-    • Hay que tener cuidado a la hora de trabajar con listas porque muchos de los errores en programación que ocurren son gracias a ellas al ser mutables 
+- Hay que tener cuidado a la hora de trabajar con listas porque muchos de los errores en programación que ocurren son gracias a ellas al ser mutables 
 
 ![assets/img47.png](assets/img47.png)    
       
 ### Clonacion
 
-    • Casi siempre es mejor clonar una lista en vez de mutarla
+- Casi siempre es mejor clonar una lista en vez de mutarla
 
-    • Para clonar una lista podemos utilizar rebanadas (slices) o la función list, en ejemplo a continuación se genera una lista con la variable a, al decir que b es igual a a, el id en memoria es el mismo pero al generar que c = a list(a) se esta clonando a a pero no tienen el mismo id en memoria porque esta es una de las formas de clonar una lista, a y b son iguales pero c ya no es igual a a
+- Para clonar una lista podemos utilizar rebanadas (slices) o la función list, en ejemplo a continuación se genera una lista con la variable a, al decir que b es igual a a, el id en memoria es el mismo pero al generar que c = a list(a) se esta clonando a a pero no tienen el mismo id en memoria porque esta es una de las formas de clonar una lista, a y b son iguales pero c ya no es igual a a
 
 ![assets/img48.png](assets/img48.png)   
 
-    • la otra forma de clonar es con slices , practicamente al generar d = a [::], esta diciendo nuevamente que tome todo a y lo clone, pero al generar los id son objetos distintos en memoria
+- la otra forma de clonar es con slices , practicamente al generar d = a [::], esta diciendo nuevamente que tome todo a y lo clone, pero al generar los id son objetos distintos en memoria
 
 ![assets/img49.png](assets/img49.png)  
 
 ### List comprehension
 
-    • Es una forma concisa de aplicar operaciones a los valores de una secuencia
+- Es una forma concisa de aplicar operaciones a los valores de una secuencia
 
-    • también se pueden aplicar condiciones para filtrar
+- también se pueden aplicar condiciones para filtrar
 
 ![assets/img50.png](assets/img50.png)  
 
@@ -811,13 +850,13 @@ los objetos no son los mismos porque al solicitar el id en memoria generan otro 
 
 ## Clase 25 Diccionarios
 
-    • Son como listas, pero en lugar de usar indices utilizan llaves
+- Son como listas, pero en lugar de usar indices utilizan llaves
 
-    • No tienen orden interno
+- No tienen orden interno
 
-    • Los diccionarios son mutables
+- Los diccionarios son mutables
 
-    • pueden iterarse
+- pueden iterarse
 
 Una forma de acceder al valor de un diccionario es a traves de su llave 
 
@@ -834,9 +873,11 @@ para no generar el error anterior se puede utilizar el metodo get y asignarle un
 Ahora al pasarle una llave correcta en vez de devolver ‘No se encuentra en el diccionario’ lo que va a hacer es devolver 26 que es el valor de la llave ‘Jeyfred’
 
 ![assets/img55.png](assets/img55.png)  
+
 Para re asignar el valor de una llave se hace de la siguiente forma
 
 ![assets/img56.png](assets/img56.png)  
+
 asi la llave Jeyfred tiene un valor distinto al que inicialmente se genero
 La forma de agregar una nueva llave al diccionario se hace muy parecido a la re asignación de valor de una llave
 
@@ -858,11 +899,11 @@ Otra forma de saber si una llave o valor esta dentro de un diccionario es con el
 
 ## Clase 26 Pruebas de caja negra
 
-    • Se basan en la especificación de la función o el programa
+- Se basan en la especificación de la función o el programa
 
-    • Prueba input y valida outputs
+- Prueba input y valida outputs
 
-    • Unit testing o integration testing, son pruebas unitarias que prueban función por función viendo que cada fragmento de código cumpla o funcione como esta establecido
+- Unit testing o integration testing, son pruebas unitarias que prueban función por función viendo que cada fragmento de código cumpla o funcione como esta establecido
 
 Estas pruebas de caja negra se implementan cuando no se conoce el funcionamiento del codigo
 Se genera código para generar un error a proposito y se va a generar un error porque no hay una función llamada suma
@@ -902,11 +943,11 @@ Ahora en el caso que a la función suma se le pase un valor como parámetro abso
 
 ## Clase 27 Pruebas de caja de cristal
 
-    • Se basan en el flujo del programa
+- Se basan en el flujo del programa
 
-    • Prueba todos los caminos posibles de una funcion. Ramificaciones, bucles for y while, recursion
+- Prueba todos los caminos posibles de una funcion. Ramificaciones, bucles for y while, recursion
 
-    • regression testing o mocks
+- regression testing o mocks
 
 En este caso se asume que se conoce toda la implementación del código pero se generan las mismas pruebas para que se implementan en las pruebas de caja negra, solo que en este punto ya es mas facil generar estos errores porque se conoce el codigo
 
@@ -914,53 +955,54 @@ En este caso se asume que se conoce toda la implementación del código pero se 
 
 Los programas tienen tendencia a generar bugs por eso se implementa el debugging, los bugs son errores que nosotros como humanos generamos en nuestro codigo y estas son reglas generales para tratar errores
 
-    • No te molestes con el debugger. Aprende a utilizar el print statement, es decir hacer impresiones de codigo para ver que esta pasando antes de que se genere el resultado
+- No te molestes con el debugger. Aprende a utilizar el print statement, es decir hacer impresiones de codigo para ver que esta pasando antes de que se genere el resultado
 
-    • Estudia los datos disponibles
+- Estudia los datos disponibles
 
-    • Utiliza los datos para crear hipótesis y experimentos. Método científico
+- Utiliza los datos para crear hipótesis y experimentos. Método científico
 
-    • Ten una mente abierta. Si entendieras el programa probablemente no habrían bugs
+- Ten una mente abierta. Si entendieras el programa probablemente no habrían bugs
 
-    • Lleva un registro de lo que has tratado, preferentemente en la forma de test 
+- Lleva un registro de lo que has tratado, preferentemente en la forma de test 
 
 ### Diseño de experimentos
 
-    • Debugear es un proceso de busqueda cada prueba debe acotar el espacio de busqueda
+- Debugear es un proceso de busqueda cada prueba debe acotar el espacio de busqueda
 
-    • Busq	ueda binaria con print statements
+- Busqueda binaria con print statements
 
 ### Errores comunes
 
-    • Encuentra a los sospechosos comunes (minúsculas, mayúsculas, comparaciones, casting, puntos, comas, paréntesis, indentacion, metodos)
+- Encuentra a los sospechosos comunes (minúsculas, mayúsculas, comparaciones, casting, puntos, comas, paréntesis, indentacion, metodos)
 
-    • En lugar de preguntarte por que un programa no funciona, preguntate por que esta funcionando de esta manera
+- En lugar de preguntarte por que un programa no funciona, preguntate por que esta funcionando de esta manera
 
-    • Es posible que el bug no se encuentre donde crees que esta
+- Es posible que el bug no se encuentre donde crees que esta
 
-    • Explicale el problema a otra persona. De preferencia que no tenga contexto
+- Explicale el problema a otra persona. De preferencia que no tenga contexto
 
-    • Lleva un registro de lo que has tratado, preferentemente en la forma de test
+- Lleva un registro de lo que has tratado, preferentemente en la forma de test
 
-    • Vete a dormir
+- Vete a dormir
 
 ## Clase 29 manejo de excepciones
 
-    • Son muy comunes en la programación. No tienen nada de excepcional
 
-    • las excepciones de Python normalmente se relacionan con errores de semántica
+- Son muy comunes en la programación. No tienen nada de excepciona
 
-    • Se pueden crear excepciones propias
+- las excepciones de Python normalmente se relacionan con errores de semántic
 
-    • Cuando una excepción no se maneja(unhandled exception), el programa termina con error	
+- Se pueden crear excepciones propia
 
-    • Las excepciones se manejan con los keywords: try, except, finally.
+- Cuando una excepción no se maneja(unhandled exception), el programa termina con error
 
-    • Se pueden utilizar tambien para ramificar programas
+- Las excepciones se manejan con los keywords: try, except, finally
 
-    • No deben manejarse de manera silenciosa(por ejemplo con print statements)
+- Se pueden utilizar tambien para ramificar programa
 
-    • para aventar tu propia excepcion utiliza el keyword raise
+- No deben manejarse de manera silenciosa(por ejemplo con print statements
+
+- para aventar tu propia excepcion utiliza el keyword raise
 
 
 Aqui un ejemplo de un codigo que empieza con su ejecucion bien pero luego de hacer el divisor igual a 0 se genera un error 
@@ -1025,10 +1067,8 @@ Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el es
 
 ## Clase 31 Afirmaciones
 
-    • Programación defensiva se utiliza por ejemplo para decir si algo es verdadero o falso
-
-    • Pueden utilizarse para verificar que los tipos sean correctos en una función
-
-    • También sirven para debuguear
+- Programación defensiva se utiliza por ejemplo para decir si algo es verdadero o fals
+- Pueden utilizarse para verificar que los tipos sean correctos en una funció
+- También sirven para debuguear
 
 ![assets/img78.png](assets/img78.png)
