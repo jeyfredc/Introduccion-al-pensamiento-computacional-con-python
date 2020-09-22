@@ -1072,3 +1072,11 @@ Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el es
 - También sirven para debuguear
 
 ![assets/img78.png](assets/img78.png)
+
+___
+
+## ¿Quieres conocer mas proyectos?
+
+Puedes visualizar mi portafolio en el siguiente enlace https://jeyfredc.github.io/Portafolio/Css-Portafolio/
+
+![assets/img-portafolio.png](assets/img-portafolio.png)
